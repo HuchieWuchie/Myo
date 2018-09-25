@@ -1,0 +1,8 @@
+﻿  emg-data-sample.cpp
+c:\users\sune1\desktop\myo-skd\udp\myo-sdk-win-0.9.0 (1)\myo-sdk-win-0.9.0\include\myo\cxx\detail\throwonerror.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\sune1\desktop\myo-skd\udp\myo-sdk-win-0.9.0 (1)\myo-sdk-win-0.9.0\include\myo\cxx\detail\throwonerror.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\users\sune1\desktop\myo-skd\udp\myo-sdk-win-0.9.0 (1)\myo-sdk-win-0.9.0\include\myo\cxx\detail\throwonerror.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\sune1\desktop\myo-skd\udp\myo-sdk-win-0.9.0 (1)\myo-sdk-win-0.9.0\include\myo\cxx\detail\throwonerror.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\users\sune1\desktop\myo-skd\udp\myo-sdk-win-0.9.0 (1)\myo-sdk-win-0.9.0\samples\emg-data-sample.cpp(119): warning C4302: 'type cast': truncation from 'int8_t *' to 'char'
+c:\users\sune1\desktop\myo-skd\udp\myo-sdk-win-0.9.0 (1)\myo-sdk-win-0.9.0\samples\emg-data-sample.cpp(120): error C2664: 'int send(SOCKET,const char *,int,int)': cannot convert argument 2 from 'char' to 'const char *'
+  c:\users\sune1\desktop\myo-skd\udp\myo-sdk-win-0.9.0 (1)\myo-sdk-win-0.9.0\samples\emg-data-sample.cpp(120): note: Conversion from integral type to pointer type requires reinterpret_cast, C-style cast or function-style cast
